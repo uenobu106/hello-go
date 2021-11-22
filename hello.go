@@ -1,7 +1,10 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"math"
+)
 
 func main() {
-	fmt.Println("Hello, World!")
+	fmt.Printf("Now you have %g problems.\n", math.Sqrt(7))
 }
