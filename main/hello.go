@@ -5,7 +5,7 @@ import (
 	"runtime"
 )
 
-func main() {
+func Hello() {
 	defer fmt.Println("world")
 
 	fmt.Println("hello")
