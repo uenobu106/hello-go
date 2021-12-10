@@ -1,10 +1,10 @@
-package main
+package fuga
 
 import (
 	"fmt"
 )
 
-func pointers() {
+func Pointers() {
 	var i,j int
 	i, j = 42, 2701
 

@@ -1,11 +1,11 @@
-package main
+package fuga
 
 import (
 	"fmt"
 	"runtime"
 )
 
-func Hello() {
+func Hello() string {
 	defer fmt.Println("world")
 
 	fmt.Println("hello")
@@ -20,4 +20,6 @@ func Hello() {
 		// plan9, windows...
 		fmt.Printf("%s.\n", os)
 	}
+
+	return "hoge"
 }

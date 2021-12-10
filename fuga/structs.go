@@ -1,4 +1,4 @@
-package main
+package fuga
 
 import "fmt"
 
@@ -9,7 +9,7 @@ type Vertex struct {
 	Y int
 }
 
-func main() {
+func Struct() {
 	fmt.Println(Vertex{1, 2})
 
 	v := Vertex{1, 2}
